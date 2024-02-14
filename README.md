@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import flatten5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten5d@esm/index.mjs';
+import flatten5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten5d@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten5d@esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten5d@v0.2.0-esm/index.mjs';
 ```
 
 #### flatten5d( x, shape, colexicographic )
@@ -117,7 +117,7 @@ y = flatten5d.assign( x, [ 2, 1, 1, 1, 2 ], true, out, 1, 0 );
 <body>
 <script type="module">
 
-import flatten5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten5d@esm/index.mjs';
+import flatten5d from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-flatten5d@v0.2.0-esm/index.mjs';
 
 // Define a 2x2x1x2x2 array:
 var x = [
